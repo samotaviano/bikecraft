@@ -37,73 +37,73 @@
 }
 
 .cor-00 {
-  color: #fff;
+  color: var(--cor-00);
 }
 
 .cor-01 {
-  color: #f7f7f7;
+  color: var(--cor-01);
 }
 
 .cor-02 {
-  color: #ededed;
+  color: var(--cor-02);
 }
 
 .cor-03 {
-  color: #dedede;
+  color: var(--cor-03);
 }
 
 .cor-04 {
-  color: #cccccc;
+  color: var(--cor-04);
 }
 
 .cor-05 {
-  color: #b2b2b2;
+  color: var(--cor-05);
 }
 
 .cor-06 {
-  color: #9c9c9c;
+  color: var(--cor-06);
 }
 
 .cor-07 {
-  color: #707070;
+  color: var(--cor-07);
 }
 
 .cor-08 {
-  color: #595959;
+  color: var(--cor-08);
 }
 
 .cor-09 {
-  color: #404040;
+  color: var(--cor-09);
 }
 
 .cor-10 {
-  color: #2e2e2e;
+  color: var(--cor-10);
 }
 
 .cor-11 {
-  color: #121212;
+  color: var(--cor-11);
 }
 
 .cor-12 {
-  color: #000;
+  color: var(--cor-12);
 }
 
 .cor-p-1 {
-  color: #ffbb00;
+  color: var(--cor-p-1);
 }
 
 .cor-p-2 {
-  color: #e5a40b;
+  color: var(--cor-p-2);
 }
 
 .cor-p-3 {
-  color: #a66f00;
+  color: var(--cor-p-3);
 }
 
 .cor-p-4 {
-  color: #664400;
+  color: var(--cor-p-4);
 }
 
 .cor-p-5 {
-  color: #332200;
+  color: var(--cor-p-5);
 }
