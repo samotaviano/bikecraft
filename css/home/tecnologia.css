@@ -1,0 +1,8 @@
+.tecnologia-bg {
+  background: var(--cor-11);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
