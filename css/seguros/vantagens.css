@@ -34,3 +34,9 @@
     margin-bottom: 40px;
   }
 }
+
+@media (min-width: 1000px) {
+  .vantagens ul {
+    grid-template-columns: repeat(auto-fit, minmax(260px, max-content));
+  }
+}
