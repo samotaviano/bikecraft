@@ -72,3 +72,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Página individual de seguros */
+
+#seguros .seguros {
+  padding-top: 0px;
+}
