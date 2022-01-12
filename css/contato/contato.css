@@ -14,13 +14,17 @@
 }
 
 .contato-dados {
-  background: var(--cor-12);
+  background: var(--cor-12)
+    url("../../img/decoradores/dec-bottom-left-grey.svg") no-repeat bottom 20px
+    left 20px;
   border-radius: 5px 0px 0px 5px;
 }
 
 .contato-formulario {
-  background: var(--cor-00);
   border-radius: 0px 5px 5px 0px;
+  background: var(--cor-00)
+    url("../../img/decoradores/dec-bottom-right-grey.svg") no-repeat bottom 20px
+    right 20px;
 }
 
 .contato-dados h2 {
@@ -78,6 +82,9 @@
 
   .contato-dados {
     border-radius: 5px 5px 0px 0px;
+    background: var(--cor-12)
+      url("../../img/decoradores/dec-bottom-right-grey.svg") no-repeat bottom
+      20px right 20px;
   }
 
   .contato-formulario {

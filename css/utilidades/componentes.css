@@ -87,6 +87,11 @@
   background: var(--cor-11);
 }
 
+.titulo {
+  background: url("../../img/decoradores/dec-top-right-grey.svg") no-repeat top
+    right 20px;
+}
+
 .titulo p {
   margin-bottom: 4px;
 }

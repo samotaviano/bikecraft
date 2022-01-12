@@ -15,6 +15,10 @@
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url("../../img/decoradores/dec-top-left-p2.svg") no-repeat top
+      20px left 20px,
+    url("../../img/decoradores/dec-bottom-right-p2.svg") no-repeat bottom 20px
+      right 20px;
 }
 
 .depoimento-conteudo p {
@@ -41,6 +45,12 @@
 
 .depoimento p::after {
   content: "”";
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {
