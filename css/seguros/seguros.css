@@ -2,6 +2,16 @@
   background: var(--cor-11);
 }
 
+#seguros .header-menu a[href="./seguros.html"]::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--cor-p-1);
+  margin-top: 4px;
+  position: absolute;
+}
+
 .seguros {
   padding-top: 60px;
   padding-bottom: 60px;
