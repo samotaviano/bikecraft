@@ -7,16 +7,6 @@
   padding-bottom: 60px;
 }
 
-#bicicleta .header-menu a[href=".././bicicletas.html"]::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--cor-p-1);
-  margin-top: 4px;
-  position: absolute;
-}
-
 #bicicleta .titulo p {
   text-transform: uppercase;
 }

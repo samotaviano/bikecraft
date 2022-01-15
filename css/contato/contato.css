@@ -2,16 +2,6 @@
   background: linear-gradient(var(--cor-11) 600px, var(--cor-01) 0px);
 }
 
-#contato .header-menu a[href="./contato.html"]::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--cor-p-1);
-  margin-top: 4px;
-  position: absolute;
-}
-
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
