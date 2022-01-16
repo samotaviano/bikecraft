@@ -98,3 +98,20 @@ function eventosGaleria(img) {
 
 // Adicionar o evento de clique
 galeria.forEach(eventosGaleria);
+
+// Aula 1205
+// Animação
+// Após instalar o plugin js Simple Anime
+// e colocar nas páginas index e seguros.
+
+// Obs.: É preciso restringir o acionamento
+// do plugin para somente caso ele exista
+if (window.SimpleAnime) {
+  // ativa o plugin com:
+  new SimpleAnime();
+}
+
+// As animações são acionadas por meio do atributo
+// data-anime colocado nos elementos do html
+// e o plugin depende de css
+// que são copiados do repositório git
