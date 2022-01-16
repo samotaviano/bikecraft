@@ -58,3 +58,43 @@ function eventosPerguntas(pergunta) {
 // aciona a a função que
 // insere o event listener (eventosPerguntas)
 perguntas.forEach(eventosPerguntas);
+
+// Aula 1204
+// Galeria de bicicletas (na página de bicicleta individual)
+// Seleciona a galeria
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+
+// Seleciona o container da galeria
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+// Função acionada com o evento de clique
+function trocarImagem(event) {
+  // Armazena a imagem que foi clicada
+  const img = event.currentTarget;
+
+  // Verificar a largura da tela
+  // por conta das imagens ficarem em uma única
+  // coluna quando aciona a media query
+  // o método matchMedia é acionado
+  // objeto window, que não precisa ser escrito,
+  // pode passar o método direto
+  const media = matchMedia("(min-width: 920px)").matches;
+
+  // Checa se media é true
+  // ou seja, se a largura da tela
+  // é maior do que 1000px
+  if (media) {
+    // Troca a ordem dos elementos <img>
+    // o prepend remove o elemento de onde ele
+    // está e move para outra localização
+    galeriaContainer.prepend(img);
+  }
+}
+
+// Função atrelada ao evento de clique
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+// Adicionar o evento de clique
+galeria.forEach(eventosGaleria);
